@@ -1,0 +1,869 @@
+*{
+    box-sizing: border-box;
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
+
+
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif; 
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.head1 img{
+width: 100%;
+    
+}
+.head1{
+    width: 14%;
+
+}
+.head2 ul{
+    list-style: none;
+}
+.head2 li {
+    color: white;
+     text-transform: uppercase;
+text-decoration: none;
+display: inline-block;
+margin-left: 48px;
+font-size: 16px;
+font-weight: 500;
+     
+}
+.head2 li:hover{
+    color: yellow;
+}
+.d {
+    color: rgb(33, 25, 84);
+    text-transform: uppercase;
+text-decoration: none;
+font-size: 12px;
+padding:5px 10px 5px 10px;
+background-color: yellow;
+margin-left: 55px;
+}
+.d:hover{
+    background-color: aliceblue;
+    color: rgb(8, 8, 8);
+    /* display: inline-block;
+} */}
+header{
+    background-color: rgb(45, 45, 92);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.section1 img{
+    width: 100%;
+    /* position: relative; */
+}
+.section1{
+    position: relative; 
+} 
+.content h1{
+text-transform: capitalize;
+font-size: 45px;
+color: white;
+margin-bottom: 0;
+font-weight:600;
+}
+.content p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+.content{
+     width: 45%; 
+    position: absolute;
+    text-align: center;
+    left: 29%;
+    top: 20%;
+   background-color: #0000ff42;
+   padding-bottom: 40px;
+    
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 17px 20px 17px 20px;
+    background-color: rgb(32, 32, 124);
+    font-weight: bold;
+    border-radius: 3px;
+    }
+
+.content a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.card1{
+    display: flex;
+    flex-wrap: wrap; 
+    
+    background-color: #0c0c7dc7;
+    /* background-color: rgb(32, 32, 116); */
+    padding:  14px 21px 20px 28px;
+     width: 33.30%; 
+    justify-content: space-between; 
+  
+}
+.card{
+    display: flex;
+      flex-wrap: wrap;  
+    justify-content:space-between;
+      position: absolute;  
+    /* margin-top: -130px;  */
+    /* gap: 15px; */
+    left: 0;
+    right: 0;
+    bottom: 4px;
+}
+.c h3{
+    color: white;
+    text-transform: capitalize;
+    font-size: 21px;
+
+}
+.c p{
+    color: white;
+    font-size: 15px;
+      /* width: 82%;   */
+    /* margin-right: 47px; */
+}
+.r i{
+color: rgb(217, 236, 75);
+padding-top: 25px;
+font-size: 36px;
+}
+.content2 h2{
+    text-transform: capitalize;
+    font-size: 43px;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: rgb(34, 34, 87);
+    
+    
+}
+.content2 p{
+font-size: 16px;
+text-align: center;
+margin-bottom: 0;
+
+
+}
+.content2{
+      
+    text-align: center;
+    
+}
+
+.container2{
+    width: 800px;
+    margin: auto;
+}
+.image img{
+    width:100%;
+    
+}
+.h h3{
+    text-transform: capitalize;
+    color: black;
+    font-size: 30px;
+    margin-top: 0;
+    font-weight: 600;
+    color: rgb(36, 36, 122);
+    
+}
+.e i{
+    color: whitesmoke;
+    padding:5px;
+    background-color: rgb(178, 178, 34);
+    font-size: 16px;
+     /* padding-top: 15px; */
+} 
+.e i:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.section2{
+    
+    padding-top: 30px;
+}
+.section3{
+    background-color: rgb(231, 235, 237);
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+.head3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.imagstud img{
+    width: 100%;
+}
+.imgstud{
+    width: 100%;
+}
+.card3 h3{
+    text-transform: capitalize;
+     /* text-align: center; */
+     padding-left: 10px;
+     color: rgb(12, 12, 103);
+     margin-bottom: 0;
+     font-weight: 500;
+     font-size: 24px;
+    }
+.card3 p{
+    font-size: 14px;
+    /* text-align: center; */
+    padding-left: 10px;
+}
+.cd p{
+    color: black;
+    text-transform: capitalize;
+    /* border-right: 2px solid black; */
+    width: 8%;
+    font-size: 13px;
+}
+.cd{
+    display: flex;
+    flex-wrap: wrap;
+     /* width: 280%; */
+      padding-left: 10px;   
+     
+}
+.cd .c1{
+    width:24%;
+    padding-left: 6px;
+    border-right: 2px solid black;
+}
+.cd .c2{
+    width:24%;
+    padding-left: 6px;
+    border-right: 2px solid black;
+}
+ .cd .c3{
+     width: 35%; 
+    padding-left: 6px;
+} 
+.maincard{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+left: 0;
+right: 0;
+
+
+}
+.card3{
+    width:24%;
+    background-color:white;
+    padding: 17px;
+    
+}
+.section5{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.im img{
+   width: 100%; 
+}
+/* .im{
+    width: 80%;
+} */
+.cd1 h3{
+    text-transform: capitalize;
+    /* text-align: center; */
+    margin-bottom: 0%;
+    font-weight: 600;
+    
+}
+.cd1 p{
+    font-size: 16px;
+    padding-bottom: 10px;
+    
+    /* text-align: center; */
+    
+}
+.cd1 a{
+    color: white;
+    padding:  9px 10px 8px 10px;
+    background-color: rgb(198, 198, 65);
+    font-size: 12px;
+    /* text-align: center; */
+}
+.cd1 a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.maincard2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    gap: 30px;
+}
+.card4{
+    width: 30%;
+}
+.cd1{
+    text-align: center;
+}
+.dri img{
+   width: 100%; 
+}
+.dri{
+    width: 24%;
+    padding: 14px;
+}
+.a h4{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: rgb(27, 27, 121);
+    margin-bottom: 0;
+    margin-bottom: 10px;
+}
+.a p{
+    font-size: 11px;
+}
+.a{
+    display: flex;
+     flex-wrap: wrap; 
+     background-color: white;
+     border-bottom: 1px solid rgb(222, 217, 217);
+     text-align: left;
+     
+}
+.section6{
+    background-color: rgb(231, 235, 237);
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+.card5  h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: rgb(40, 40, 145);
+    text-align: left;
+}
+
+.card8  h3{
+    text-transform: capitalize;
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: rgb(40, 40, 134);
+    padding-bottom: 0%;
+    text-align: left;
+}
+/* .card5 a {
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(62, 62, 133);
+    border-radius: 2px; */
+    
+
+.b{
+  padding-top: 30px;  
+}
+.b2{
+  padding-top: 14px;  
+}
+.b a {
+    text-transform: capitalize;
+    font-size: 11px;
+    padding: 9px 17px 9px 17px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(62, 62, 133);
+    /* border-radius: 2px; */
+
+}
+.b a:hover{
+    background-color: black;
+    color: white;
+}
+.b2 a {
+    text-transform: capitalize;
+    font-size: 11px;
+    padding: 9px 17px 9px 17px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(62, 62, 133);
+    /* border-radius: 2px; */
+
+}
+.b2 a:hover{
+    background-color: black;
+    color: white;
+}
+.card6{
+    padding-bottom: 33px;
+}
+ .i2 strong{
+ color: rgb(52, 52, 135);  
+  padding: 20px 18px 20px 18px;
+  background-color: rgb(217, 217, 38);
+  }
+  .i2{
+    padding-bottom: 10px;
+  }
+  .i3 strong{
+    color: white;
+    padding:0 23px 6px 20px ;
+    background-color: rgb(14, 14, 20);
+
+}
+.i4 h3{
+text-transform: capitalize;
+font-weight:500;
+ margin-bottom: 0; 
+ padding-bottom: 0;
+
+}
+
+.i4 p{
+  font-size: 12px; 
+  /* border-right: 2px solid black; */
+  /* margin-top: 0;  */
+}
+.cd2{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(23, 23, 129);
+    
+}
+.card7{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.iup{
+    padding:50px 0 0 30px;
+    width: 20%;
+}
+ .i4{
+width: 80%;
+padding:  10px 25px 10px 15px;
+text-align: left;
+} 
+.main{
+    display: flex;
+     flex-wrap: wrap;
+     gap: 15px;
+     justify-content: center;
+}
+.card5{
+    width: 48%;
+    text-align: center;
+}
+.card8{
+    width: 48%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.c4 {
+    margin-top: 0;
+    border-right: 2px solid rgb(15, 45, 153);
+    padding: 0 10px;
+    color: rgb(25, 25, 136);
+}
+.c5 p{
+    color: rgb(31, 31, 112);
+    text-transform: capitalize;
+}
+.c5 {
+    margin-top: 0;
+    padding: 0 0 0 10px;
+    color: rgb(15, 15, 155);
+}
+/* .card8 a{
+        text-transform: capitalize;
+        font-size: 13px;
+         padding: 5px 15px 5px 15px;
+        
+        text-decoration: none;
+        color: white;
+        background-color: rgb(62, 62, 133);
+        margin: 55px 1px 12px 196px;
+} */
+
+.section7 {
+    background-image: url(../images/WhatsApp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.c9{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 25%;
+}
+.c9 strong{
+    color: white;
+    font-size: 50px;
+    border-bottom: 3px solid rgb(213, 193, 59);
+     padding: 10px 10px 0 10px; 
+    /* padding-top: 10px; */
+
+}
+
+.c9 p{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 0;
+    padding-left: 15px;
+}
+.card9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c10 h3{
+    text-transform: capitalize;
+    color: rgb(44, 44, 102);
+    font-size: 18px;
+    margin-bottom: 0%;
+    font-weight: 600;
+}
+.ui{
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.c10 i{
+    color: rgb(159, 159, 29);
+     margin-bottom: 35px;
+}
+.third{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.section8{
+    padding-top: 35px;
+    padding-bottom: 90px;
+}
+.back img{
+    width: 100%;
+}
+.back{
+    width: 12%;
+    position: absolute;
+    right: 20px;
+    bottom: 69px;
+    border: 4px solid white;
+    /* padding-bottom: 60px; */
+}
+.c10{
+    width: 49%;
+    position: relative;
+}
+
+.card10{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between; 
+}
+.c11{
+    display: flex;
+     flex-wrap: wrap; 
+     background-color: rgb(231, 235, 237);;
+     
+}
+.c11 p{
+     padding: 20px 130px 30px 20px;
+    font-size: 13px;
+
+}
+ /* .cpics img{
+    width: 100%;
+ } */
+ .cpics{
+    width: 70%;
+    background-color: white;
+ }
+ .pics{
+    width: 11.90%;
+ }
+ .pics img{
+    width: 100%;
+ }
+ .ccontaint{
+    width:25% ;
+    background-color: rgb(39, 39, 116);
+    text-align: center;
+    padding: 50px 29px 42px 22px;
+
+ }
+ .card11{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .ccontaint h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    /* width: 40%; */
+    color: white;
+    font-weight: 400;
+    text-align: center;
+ }
+ .section9{
+    background-color: rgb(238, 227, 18);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+ }
+ /* .section10{
+    padding-top: 30px;
+    padding-bottom: 30px;
+ } */
+.ccontaint a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(25, 25, 69);
+    background-color: rgb(247, 247, 81);
+
+}
+.ccontaint a:hover{
+    color: black;
+    background-color: white;
+}
+.i1 img{
+width: 100%;
+}
+.i1{
+    width: 19%;
+}
+.card12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.i{
+    padding: 0 103px 0 0;
+    width: 75%;
+}
+
+.card13 h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+}
+/* .card13 img{
+    width: 100%; */
+
+
+.card13 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+}
+.card13 p{
+    color: white;
+    padding-top: 18px;
+}
+.card13 i{
+    color: white;
+}
+.card13{
+    width: 23%;
+    
+}
+
+.c13{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card13 ul{
+    list-style: none;
+}
+
+.foot1{
+    background-color:rgb(24, 24, 149);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.foot2{
+    background-color: rgb(15, 15, 67);
+    padding-top: 5px;
+}
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.ul1 ul{
+    padding-left: 0;
+}
+.ul2 ul{
+    padding-left: 0;
+}
+.ul2{
+    width: 50%;
+}
+.ul2 li{
+    padding-bottom: 12px;
+}
+.ul1{
+    width: 49%;
+    
+}
+.ul li{
+    padding-bottom: 13px;
+}
+.im2{
+    width: 24%;
+}
+.c{
+    width: 80%;
+}
+ .r{
+    width: 20%;
+ }
+ video{
+ width: 100%;
+height:400px;
+ }
+ .mark{
+    color: rgb(175, 175, 25);
+    text-transform: uppercase;
+    font-size: 14px;
+ }
+ .im2 img{
+    width: 100%;
+ }
+ footer{
+    background-color:rgb(31, 31, 125); 
+ }
+ .foot2 p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+ }
+ .foot2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+ }
+ .visa img{
+    width: 100%;
+    /* display: inline-block; */
+
+ }
+ .dio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .visa{
+    
+    display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+    width: 20%;
+ }
+ .all{
+    width: 70%;
+ }
+ .v1{
+    width: 20%;
+    margin-left: 5px;
+ }
+ .vtext h2{
+    font-size: 45px;
+    margin: 0;
+    font-weight: 400;
+    color: white;
+    
+ }
+ .vtext p{
+    color: white;
+ }
+ .wvideo{
+    position: relative;
+ }
+ .vtext{
+    position: absolute;
+    bottom: 40%;
+    text-align: center;
+    left: 0;
+    right: 0;
+ }
+ .dev{
+   font-size: 15px; 
+ }
+ 
+    .di i {
+        color: white;
+        font-size: 11px;
+        padding: 7px;
+        border: 1px solid #e2cdcd;
+        margin: 11px 3px 0 3px;
+    }
+    .di i:hover{
+        background-color: antiquewhite;
+        color: black;
+    }
+ 
+ .ul1 i {
+    font-size: 12px;
+    color: rgb(241, 241, 7);
+    padding-right: 9px;
+}
+.ul2 i {
+    font-size: 12px;
+    color: yellow;
+    padding-right: 9px;
+}
+.dish{
+    display: block;
+    padding-bottom: 15px;
+}
+.dishu h3{
+    padding-bottom: 15px;
+}
+.dish i{
+
+        color: yellow;
+        padding-right: 17px;
+    
+}
+.set{
+    text-transform: capitalize;
+    margin-top: 0;
+    padding-top:15px;
+}   
